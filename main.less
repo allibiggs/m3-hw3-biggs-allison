@@ -1,5 +1,66 @@
 @import "variables.less";
 
-h1 {
-    color: @primary-color;
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+}
+
+header {
+    nav {
+        background-color: @yellow;
+
+        ul {
+            li {
+                font-size: .8rem;
+            }
+        }
+    }
+    .header-img {
+        .header-img();
+    }
+
+    .red {
+        color: @red;
+    }
+}
+
+
+main {
+    .container-fluid {
+        .content {
+            width: 80%;
+            margin: 0 auto;
+
+            p {
+                font-weight: 300;
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .container2 {
+        background-color: @grey;
+    }
+}
+
+
+
+
+.row2 {
+    .row2();
+}
+
+button {
+    .btn-primary();
+    .btn();
+}
+
+
+footer {
+    background: black;
+    border-top: 10px solid yellow;
+
+        img {
+            width: 300px;
+        }
 }

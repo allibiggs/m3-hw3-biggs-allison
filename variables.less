@@ -1,4 +1,39 @@
 @width: 10px;
 @height: @width + 10px;
 
-@primary-color: pink;
+@primary-color: gold;
+
+@red: #ed2530;
+@yellow: #f8df1f;
+@black: #000;
+@grey: #e6e6e6;
+
+.btn {
+    font-size: .8rem;
+    padding: 1.5% 3%;
+}
+
+.btn-primary {
+    background-color: @yellow;
+    border: none;
+    font-weight: 400;  
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: @black;
+}
+
+.row2 {
+    background-color: #e6e6e6;
+    width: 100%;
+}
+
+.header-img {
+    background-image: url("img/banner-bg.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
