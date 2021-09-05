@@ -1,8 +1,11 @@
 @import "variables.less";
 
 body {
-    font-family: 'Roboto', sans-serif; 
-    font-weight: 400;
+    .text-style();
+}
+
+.red {
+    color: @red;
 }
 
 header {
@@ -12,15 +15,12 @@ header {
         ul {
             li {
                 font-size: .8rem;
+                font-weight: 500;
             }
         }
     }
     .header-img {
         .header-img();
-    }
-
-    .red {
-        color: @red;
     }
 }
 
@@ -31,20 +31,21 @@ main {
             width: 80%;
             margin: 0 auto;
 
-            p {
-                font-weight: 300;
-                font-size: .8rem;
-            }
-        }
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: .8rem;
+                }
+         }
     }
 
     .container2 {
         background-color: @grey;
     }
 }
-
-
-
 
 .row2 {
     .row2();
